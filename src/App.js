@@ -32,6 +32,7 @@ function App() {
                 <Portfolio />
                 <Testimonials />
                 <Blog />
+                <contactnet />
                 <Contact theme={theme} />
             </main>
         </div>

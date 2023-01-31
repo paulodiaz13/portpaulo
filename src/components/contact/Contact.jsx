@@ -48,6 +48,7 @@ const Contact = (props) => {
     };
 
     return (
+
         <section className="contact container section" id="contact">
             <h2 className="section__title">Get In Touch</h2>
 
@@ -108,7 +109,11 @@ const Contact = (props) => {
                 <ToastContainer position="bottom-right" theme={props.theme} />
             </div>
         </section>
+
+        
     );
+
+
 };
 
 export default Contact;
